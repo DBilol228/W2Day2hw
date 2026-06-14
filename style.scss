@@ -271,6 +271,100 @@
 .header3ph{
     display: none;
 }
+.header4{
+    max-width: 1200px;
+    margin: auto;
+    .section4{
+        width: 100%;
+        height: 900px;
+        background: linear-gradient(to top, lightblue, white);
+    }
+}
+.txtsection4{
+    margin-top: 200px;
+    h1{
+        color: #22253B;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        color: #22253B;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .mac{
+        width: 500px;
+        display: flex;
+        justify-self: center;
+        margin-top: 80px;
+    }
+    .box1{
+        display: flex;
+        justify-self: center;
+        width: 90%;
+        height: 280px;
+        background-color: white;
+        margin-top: 30px;
+        border-radius: 30px;
+        box-shadow: 0 0 20px rgba(128, 128, 128, 0.26);
+        h1{
+            color: #38BFF2;
+            font-size: 80px;
+            font-weight: 500;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        h2{
+            color: #22253B;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 120px;
+            margin-left: -90px;
+        }
+        p{
+            color: #22253B;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 180px;
+            margin-left: -220px;
+        }
+        .zer{
+            margin-left: 160px;
+        }
+        .zer2{
+            margin-left: 160px;
+        }
+    }
+    .lilbox{
+        background-color: white;
+        width: 30%;
+        height: 55px;
+        justify-self: center;
+        margin-top: 35px;
+        border-radius: 30px;
+        button{
+            background-color: #F15525;
+            color: white;
+            width: 150px;
+            height: 40px;
+            border: none;
+            border-radius: 30px;
+            margin-top: 7px;
+            margin-left: 7px;
+        }
+        p{
+            color: #22253B;
+            font-size: 12px;
+            margin-left: 150px;
+            margin-top: -40px;
+        }
+    }
+}
+.header4ph{
+    display: none;
+}
 
 @media (max-width: 500px) {
     .header{
@@ -544,5 +638,91 @@
                     line-height: 1.5;
                 }   
         }
+}
+.header4{
+    display: none;
+}
+.header4ph{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    .section4ph{
+        background: linear-gradient(to top, lightblue, white);
+        width: 100%;
+        height: 1490px;
+        .txtsection4ph{
+            padding-top: 10%;
+            h1{
+                margin-top: 20px;
+                color: #22253B;
+                text-align: center;
+                font-size: 30px;
+            }
+            p{
+                margin-top: 20px;
+                color: #22253B;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.4;
+                padding-bottom: 20px;
+            }
+            .macb{
+                width: 300px;
+                display: flex;
+                justify-self: center;
+            }
+            .boxes{
+                background-color: white;
+                width: 90%;
+                height: 250px;
+                justify-self: center;
+                margin-top: 20px;
+                border-radius: 30px;
+                h1{
+                    color: #5096FF;
+                    font-weight: 600;
+                    font-size: 40px;
+                    padding-top: 10px;
+                    margin-left: -270px;
+                }
+                h4{
+                    color: #22253B;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                    font-size: 20px;
+                }
+                p{
+                    color: #22253B;
+                    font-size: 16px;
+                    font-weight: lighter;
+                    margin-left: -50px;
+                }
+            }
+            .lilbox{
+                background-color: white;
+                width: 90%;
+                height: 150px;
+                justify-self: center;
+                margin-top: 20px;
+                border-radius: 30px;
+                button{
+                    background-color: #F15525;
+                    color: white;
+                    width: 70%;
+                    height: 45px;
+                    font-size: 18px;
+                    border: none;
+                    border-radius: 30px;
+                    margin-left: 50px;
+                    margin-top: 20px;
+                }
+                p{
+                    color: #22253B;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 }
 }
