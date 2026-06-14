@@ -100,6 +100,113 @@
   display: none;
 }
 
+.header2 {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section2 {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
+.txtsection2 {
+  padding-top: 10%;
+}
+.txtsection2 h1 {
+  color: #22253B;
+  font-weight: bold;
+  text-align: center;
+}
+.txtsection2 .box1 {
+  margin-top: 50px;
+  width: 100%;
+  height: 450px;
+  background-color: #EAF2F5;
+  border-radius: 40px;
+}
+.txtsection2 .guy {
+  padding-left: 80px;
+  padding-top: 95px;
+}
+.txtsection2 .buttons {
+  margin-left: 600px;
+  margin-top: -300px;
+}
+.txtsection2 .but1 {
+  color: white;
+  background-color: #5096FF;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 .but2 {
+  color: white;
+  background-color: #FFB359;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 .buttons2 {
+  margin-left: 600px;
+  margin-top: 10px;
+}
+.txtsection2 .but3 {
+  color: white;
+  background-color: #FF6F50;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 .but4 {
+  color: white;
+  background-color: #4BD071;
+  width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 .but5 {
+  color: white;
+  background-color: #38BFF2;
+  width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 .but6 {
+  color: white;
+  background-color: #4B77B9;
+  width: 82px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 .but7 {
+  color: white;
+  background-color: #AF93FF;
+  width: 83px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.txtsection2 p {
+  color: #22253B;
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 600px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.header2ph {
+  display: none;
+}
+
 @media (max-width: 500px) {
   .header {
     display: none;
@@ -186,5 +293,109 @@
   .txtsectionph .img1 {
     max-width: 64%;
     margin-top: 20px;
+  }
+  .header2 {
+    display: none;
+  }
+  .header2ph {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+  }
+  .section2ph {
+    width: 100%;
+    height: 400px;
+  }
+  .txtsection2ph {
+    padding-top: 10%;
+    text-align: center;
+  }
+  .txtsection2ph h1 {
+    color: #22253B;
+    font-weight: 600;
+  }
+  .txtsection2ph .box1ph {
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 95%;
+    height: 330px;
+    background-color: #EAF2F5;
+    border-radius: 30px;
+  }
+  .txtsection2ph .box1ph .but1 {
+    color: white;
+    background-color: #5096FF;
+    max-width: 300px;
+    min-width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  .txtsection2ph .box1ph .buttons2 {
+    margin-top: 15px;
+  }
+  .txtsection2ph .box1ph .but2 {
+    color: white;
+    background-color: #FFB359;
+    max-width: 130px;
+    min-width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  .txtsection2ph .box1ph .but3 {
+    color: white;
+    background-color: #FF6F50;
+    max-width: 165px;
+    min-width: 165px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  .txtsection2ph .box1ph .but4 {
+    color: white;
+    background-color: #4BD071;
+    max-width: 300px;
+    min-width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+  .txtsection2ph .box1ph .buttons3 {
+    margin-top: 15px;
+  }
+  .txtsection2ph .box1ph .but5 {
+    color: white;
+    background-color: #38BFF2;
+    max-width: 300px;
+    min-width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .txtsection2ph .box1ph .but6 {
+    color: white;
+    background-color: #4B77B9;
+    max-width: 145px;
+    min-width: 145px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+  }
+  .txtsection2ph .box1ph .but7 {
+    color: white;
+    background-color: #AF93FF;
+    height: 50px;
+    max-width: 145px;
+    min-width: 145px;
+    border-radius: 30px;
+    border: none;
   }
 }/*# sourceMappingURL=style.css.map */
