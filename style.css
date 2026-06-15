@@ -381,6 +381,60 @@
   display: none;
 }
 
+.header5 {
+  max-width: 1200px;
+  margin: auto;
+}
+.header5 .section5 {
+  width: 100%;
+  height: 550px;
+}
+.header5 .section5 .txtsection5 {
+  padding-top: 9%;
+  padding-bottom: 3%;
+}
+.header5 .section5 .txtsection5 .boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.header5 .section5 .txtsection5 .boxes .box {
+  background-color: #EAF2F5;
+  width: 280px;
+  height: 230px;
+  border-radius: 30px;
+}
+.header5 .section5 .txtsection5 .boxes .box .ppl1 {
+  width: 67%;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+.header5 .section5 .txtsection5 .boxes .box2 {
+  background-color: #EAF2F5;
+  width: 600px;
+  height: 230px;
+  border-radius: 30px;
+}
+.header5 .section5 .txtsection5 .boxes .box2 h1 {
+  color: #22253B;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 28px;
+}
+.header5 .section5 .txtsection5 .boxes .box2 p {
+  color: #22253B;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-left: 40px;
+  line-height: 1.4;
+}
+
+.header5ph {
+  display: none;
+}
+
 @media (max-width: 500px) {
   .header {
     display: none;
@@ -738,5 +792,56 @@
   .header4ph .section4ph .txtsection4ph .lilbox p {
     color: #22253B;
     font-size: 18px;
+  }
+  .header5 {
+    display: none;
+  }
+  .header5ph {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+  }
+  .header5ph .section5ph {
+    width: 100%;
+    height: 550px;
+  }
+  .header5ph .section5ph .txtsection5ph {
+    padding-top: 9%;
+  }
+  .header5ph .section5ph .txtsection5ph .boxesph {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .header5ph .section5ph .txtsection5ph .boxesph .boxph {
+    background-color: #EAF2F5;
+    width: 90%;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header5ph .section5ph .txtsection5ph .boxesph .boxph .imgph {
+    width: 70%;
+  }
+  .header5ph .section5ph .txtsection5ph .boxesph .boxph2 {
+    background-color: #EAF2F5;
+    width: 90%;
+    height: 330px;
+    border-radius: 30px;
+  }
+  .header5ph .section5ph .txtsection5ph .boxesph .boxph2 h1 {
+    color: #22253B;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .header5ph .section5ph .txtsection5ph .boxesph .boxph2 p {
+    color: #22253B;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 1.4;
   }
 }/*# sourceMappingURL=style.css.map */
